@@ -1,0 +1,31 @@
+---
+import BacklinksCalculator from '../components/BacklinksCalculator.astro';
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>BackLinks Calculator</title>
+	</head>
+	<body class="bg-white">
+		<header class="bg-black text-white py-6">
+			<div class="container mx-auto px-4">
+				<h1 class="text-4xl font-bold">BackLinks <span class="text-red-600">Calculator</span></h1>
+			</div>
+		</header>
+
+		<main class="container mx-auto px-4 py-8">
+			<BacklinksCalculator />
+		</main>
+
+		<footer class="bg-black text-white py-4">
+			<div class="container mx-auto px-4 text-center">
+				<p>&copy; 2023 BackLinks Calculator. All rights reserved.</p>
+				<p class="mt-2">Developed by MPG ONE Agency</p>
+			</div>
+		</footer>
+	</body>
+</html>
